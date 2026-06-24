@@ -1,0 +1,200 @@
+2026-06-19T00:21:10.675+04:30  WARN 8880 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m38s213ms973µs400ns).
+2026-06-19T16:04:18.866+04:30  INFO 17772 --- [main] ir.EnergyUploadApplication               : Starting EnergyUploadApplication using Java 17.0.1 with PID 17772 (E:\j\epup2\1\energyuploadproject\target\classes started by DC in E:\j\epup2\1\energyuploadproject)
+2026-06-19T16:04:18.870+04:30  INFO 17772 --- [main] ir.EnergyUploadApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-06-19T16:04:34.100+04:30  INFO 17772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-19T16:04:34.148+04:30  INFO 17772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-19T16:04:34.819+04:30  INFO 17772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 624 ms. Found 15 JPA repository interfaces.
+2026-06-19T16:04:34.935+04:30  INFO 17772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-19T16:04:34.938+04:30  INFO 17772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-19T16:04:34.971+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.974+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.CartItemRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.976+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.CategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.976+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.HouseholdRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.977+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.IdempotentRequestRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.978+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.LedgerEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.979+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.980+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.PaymentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.981+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.982+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.RefreshTokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.983+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.984+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.RuleConditionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.985+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.RuleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.986+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.TransferRecordRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.988+04:30  INFO 17772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface ir.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-19T16:04:34.988+04:30  INFO 17772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-06-19T16:04:37.258+04:30  INFO 17772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-06-19T16:04:37.302+04:30  INFO 17772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-19T16:04:37.302+04:30  INFO 17772 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-06-19T16:04:37.434+04:30  INFO 17772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-19T16:04:37.434+04:30  INFO 17772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17587 ms
+2026-06-19T16:04:38.002+04:30  INFO 17772 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-19T16:04:38.170+04:30  INFO 17772 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-06-19T16:04:38.252+04:30  INFO 17772 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-19T16:04:38.921+04:30  INFO 17772 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-19T16:04:39.082+04:30  INFO 17772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-19T16:04:40.346+04:30  INFO 17772 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@d2cb2d0
+2026-06-19T16:04:40.349+04:30  INFO 17772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-19T16:04:41.759+04:30  WARN 17772 --- [main] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-19T16:04:42.917+04:30  INFO 17772 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 23.26
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-19T16:04:52.061+04:30 DEBUG 17772 --- [main] org.hibernate.SQL                        : 
+    create global temporary table HTE_refresh_token(revoked boolean, rn_ number(10, 0) not null, expiry_date timestamp(6), id number(19, 0), token varchar2(1000 char), username varchar2(255 char), primary key (rn_)) 
+        on commit delete rows
+2026-06-19T16:04:52.304+04:30 DEBUG 17772 --- [main] org.hibernate.SQL                        : 
+    create global temporary table HTE_rules(is_active boolean, rn_ number(10, 0) not null, campaign_id number(19, 0), id number(19, 0), transfer_percentage float(53), withdraw_percentage float(53), name varchar2(255 char), primary key (rn_)) 
+        on commit delete rows
+2026-06-19T16:04:52.317+04:30 DEBUG 17772 --- [main] org.hibernate.SQL                        : 
+    create global temporary table HTE_rule_conditions(is_active boolean, rn_ number(10, 0) not null, id number(19, 0), rule_id number(19, 0), field_name varchar2(255 char), operator varchar2(255 char), relation_type varchar2(255 char), value varchar2(255 char), primary key (rn_)) 
+        on commit delete rows
+2026-06-19T16:04:52.329+04:30 DEBUG 17772 --- [main] org.hibernate.SQL                        : 
+    create global temporary table HTE_transfer_record(amount number(38, 2), rn_ number(10, 0) not null, created_at timestamp(6) with time zone, id number(19, 0), from_account_id varchar2(255 char), status varchar2(255 char), to_account_id varchar2(255 char), primary key (rn_)) 
+        on commit delete rows
+2026-06-19T16:04:52.895+04:30  INFO 17772 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-19T16:05:03.651+04:30  INFO 17772 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:05:06.013+04:30  INFO 17772 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-19T16:05:06.366+04:30  INFO 17772 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-19T16:05:07.596+04:30  WARN 17772 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-19T16:05:08.539+04:30 DEBUG 17772 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-19T16:05:10.457+04:30  INFO 17772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-06-19T16:05:10.503+04:30  INFO 17772 --- [main] ir.EnergyUploadApplication               : Started EnergyUploadApplication in 65.305 seconds (process running for 85.186)
+2026-06-19T16:05:10.519+04:30  WARN 17772 --- [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-19T16:05:10.520+04:30  WARN 17772 --- [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-19T16:07:01.449+04:30  INFO 17772 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-19T16:07:01.451+04:30  INFO 17772 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-19T16:07:01.458+04:30  INFO 17772 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-06-19T16:07:01.833+04:30 DEBUG 17772 --- [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2026-06-19T16:07:01.845+04:30 DEBUG 17772 --- [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:01.891+04:30 DEBUG 17772 --- [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2026-06-19T16:07:04.607+04:30 DEBUG 17772 --- [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css
+2026-06-19T16:07:04.608+04:30 DEBUG 17772 --- [http-nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:04.609+04:30 DEBUG 17772 --- [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css
+2026-06-19T16:07:04.612+04:30 DEBUG 17772 --- [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-06-19T16:07:04.614+04:30 DEBUG 17772 --- [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.css
+2026-06-19T16:07:04.619+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-06-19T16:07:04.619+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:04.620+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-06-19T16:07:04.621+04:30 DEBUG 17772 --- [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-initializer.js
+2026-06-19T16:07:04.622+04:30 DEBUG 17772 --- [http-nio-8081-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:04.622+04:30 DEBUG 17772 --- [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-initializer.js
+2026-06-19T16:07:04.613+04:30 DEBUG 17772 --- [http-nio-8081-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:04.626+04:30 DEBUG 17772 --- [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-06-19T16:07:04.614+04:30 DEBUG 17772 --- [http-nio-8081-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:04.628+04:30 DEBUG 17772 --- [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.css
+2026-06-19T16:07:06.185+04:30 DEBUG 17772 --- [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-32x32.png
+2026-06-19T16:07:06.185+04:30 DEBUG 17772 --- [http-nio-8081-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:06.185+04:30 DEBUG 17772 --- [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-32x32.png
+2026-06-19T16:07:07.812+04:30 DEBUG 17772 --- [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs/swagger-config
+2026-06-19T16:07:07.812+04:30 DEBUG 17772 --- [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:07.813+04:30 DEBUG 17772 --- [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs/swagger-config
+2026-06-19T16:07:08.417+04:30 DEBUG 17772 --- [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
+2026-06-19T16:07:08.418+04:30 DEBUG 17772 --- [http-nio-8081-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:07:08.418+04:30 DEBUG 17772 --- [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
+2026-06-19T16:07:10.827+04:30  INFO 17772 --- [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 2195 ms
+2026-06-19T16:08:06.895+04:30 DEBUG 17772 --- [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2026-06-19T16:08:06.896+04:30 DEBUG 17772 --- [http-nio-8081-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:08:06.896+04:30 DEBUG 17772 --- [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2026-06-19T16:10:35.915+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2026-06-19T16:10:35.916+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-19T16:10:35.916+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2026-06-19T16:10:36.304+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.enabled,
+        u1_0.password,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2026-06-19T16:10:36.306+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [user]
+2026-06-19T16:10:36.468+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.balance,
+        a1_0.owner_name,
+        a1_0.user_id,
+        u1_0.id,
+        u1_0.enabled,
+        u1_0.password,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.username,
+        a1_0.version 
+    from
+        account a1_0 
+    join
+        users u1_0 
+            on u1_0.id=a1_0.user_id 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        a1_0.user_id=?
+2026-06-19T16:10:36.469+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-19T16:10:36.907+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-19T16:10:36.908+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-19T16:10:37.651+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.enabled,
+        u1_0.password,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2026-06-19T16:10:37.652+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [user]
+2026-06-19T16:10:37.771+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-06-19T16:10:37.834+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] org.hibernate.SQL                        : 
+    select
+        rt1_0.id,
+        rt1_0.expiry_date,
+        rt1_0.revoked,
+        rt1_0.token,
+        rt1_0.username 
+    from
+        refresh_token rt1_0 
+    where
+        rt1_0.username=?
+2026-06-19T16:10:37.835+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [user]
+2026-06-19T16:10:37.961+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] org.hibernate.SQL                        : 
+    select
+        refresh_token_seq_gen.nextval
+2026-06-19T16:10:38.080+04:30 DEBUG 17772 --- [http-nio-8081-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        refresh_token
+        (expiry_date, revoked, token, username, id) 
+    values
+        (?, ?, ?, ?, ?)
+2026-06-19T16:10:38.082+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP) <- [2026-06-26T16:10:37.950337700]
+2026-06-19T16:10:38.084+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (2:BOOLEAN) <- [false]
+2026-06-19T16:10:38.085+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzgxODY5MjM3LCJleHAiOjE3ODI0NzQwMzd9.x_vgAjvWV0zn0jqfG7PVSRdCS0Dr7j8rrRGOW3R3XAs]
+2026-06-19T16:10:38.085+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [user]
+2026-06-19T16:10:38.085+04:30 TRACE 17772 --- [http-nio-8081-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (5:BIGINT) <- [1]
+2026-06-19T16:11:06.426+04:30  INFO 17772 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-19T16:11:08.255+04:30  INFO 17772 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-19T16:11:08.387+04:30  INFO 17772 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:11:08.394+04:30  INFO 17772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-19T16:11:08.591+04:30  INFO 17772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
